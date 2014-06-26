@@ -43,7 +43,7 @@
         _mouseJointNode.position = touchLocation;
         
         // setup a spring joint between the mouseJointNode and the catapultArm
-        _mouseJoint = [CCPhysicsJoint connectedSpringJointWithBodyA:_mouseJointNode.physicsBody bodyB: _catapultArm.physicsBody anchorA:ccp(0,0) anchorB:ccp(34, 138) restLength:0.f stiffness:3000.f damping:150.f];
+        _mouseJoint = [CCPhysicsJoint connectedSpringJointWithBodyA:_mouseJointNode.physicsBody bodyB: _catapultArm.physicsBody anchorA:ccp(0,0) anchorB:ccp(34, 138) restLength:0.f stiffness:3000.f damping:0.f];
     }
 }
 
@@ -58,7 +58,7 @@
     
     // manually create & apply a force to launch the penguin
     CGPoint launchDirection = ccp(1, 0);
-    CGPoint force = ccpMult(launchDirection, 100000);
+    CGPoint force = ccpMult(launchDirection, 8000);
     [penguin.physicsBody applyForce:force];
     
     // ensure followed object is in visible are when starting
