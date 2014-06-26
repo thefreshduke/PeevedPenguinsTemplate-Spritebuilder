@@ -365,6 +365,8 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -1567,8 +1569,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>200</real>
-									<real>64</real>
+									<real>223</real>
+									<real>68</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1596,8 +1598,6 @@
 								<string>WaitingPenguin.ccb</string>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -1631,8 +1631,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>231</real>
-									<real>64</real>
+									<real>254</real>
+									<real>68</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1660,8 +1660,6 @@
 								<string>WaitingPenguin.ccb</string>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
@@ -1695,8 +1693,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>261</real>
-									<real>64</real>
+									<real>284</real>
+									<real>68</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -1724,8 +1722,6 @@
 								<string>WaitingPenguin.ccb</string>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
